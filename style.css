@@ -1,0 +1,173 @@
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #cecece;
+  font-family: "Segoe UI", Tahoma, Helvetica, Arial, Verdana, sans-serif;
+  font-size: 20px;             
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #a5d7e4;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #fff;
+  transition: 0.3s;
+}
+
+#header {
+  background-color: #2e2e2e;
+  font-size: 25px;
+  padding: 5px 20px 5px 20px; /*top right bottom left*/
+}
+
+#logo {
+  padding-top: 10px;
+}
+
+#logo img {
+  width: 70px;
+  height: auto;
+}
+
+#sub_header {
+  margin: 0; 
+  list-style-type: none
+}
+
+#sub_header > li {
+  display: inline-block; 
+  transition: all .2s linear; 
+  padding: 10px 20px 10px 20px;
+}
+
+#sub_header > li > a {
+  color: #FFF; 
+  display: block; 
+  transition: 0.3s}
+
+#sub_header > li:hover {
+  color: #FFF; 
+  background-color: #434343; 
+  transition: 0.3s; 
+  border-radius: 3px}
+
+#sub_header img {
+  margin-bottom: -5px;
+  width: 25px;
+  height: auto;
+}
+
+#banner {
+  color: #fff;
+  text-shadow: 2px 2px #595959;
+  background-image: url("banner.jpg");
+  background-size: cover; /*fa sì che un immagine in bg copra l'intero div*/
+  padding: 80px 0px 80px 60px; 
+}
+
+#content {
+  padding: 40px 80px 0 80px;
+  box-sizing: border-box;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  padding-bottom: 60px;
+}
+
+#container {
+  text-align: center;
+  border: 2px solid #434343;
+  border-radius: 10px;
+  background-color: #2e2e2e;
+}
+
+#container td {
+  padding: 10px 25px 10px 25px;
+  transition: 0.3s;
+}
+
+#highlight {
+  transition: 0.3s;
+  padding: 5px 5px 5px 5px;
+}
+
+#highlight:hover {
+  background-color: #434343;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+#footer {
+  font-size: 15px;
+  color: #b8b8b8;
+  background-color: #2e2e2e;
+  padding: 15px 40px 15px 40px;
+}
+
+#footer img {
+  width: 15px;
+  height: auto;
+  margin-bottom: -2px;
+  padding-left: 8px;
+}
+
+#footer a {
+  color: #b8b8b8;
+}
+
+#input {
+  background-image: url('search.png');
+  background-size: 20px;
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  background-color: #434343;
+  color: #cecece;
+  width: 100%;
+  box-sizing: border-box; /* include il padding in larghezza e altezza */
+  font-size: 16px;
+  padding: 12px 0px 12px 40px;
+  border: 0px;
+  border-radius: 5px;
+  margin-bottom: 20px; /* Add some space below the input */
+  transition: 0.3s;
+}
+
+#input:focus {
+  outline:none!important; /* da finire */
+  background-color: #2e2e2e;
+  transition: 0.3s;
+}
+
+#option {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#option li a {
+  border: 0px solid #434343; /* Add a border to all links */
+  border-radius: 5px;
+  margin-top: -1px; /* Prevent double borders */
+  margin-bottom: 10px;
+  background-color: #2e2e2e; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  font-size: 18px;
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#option li a:hover:not(.header) {
+  background-color: #434343; /* Add a hover effect to all links, except for headers */
+}
