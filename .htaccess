@@ -1,2 +1,26 @@
+#Remove .html extension
+
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [QSA,L]
+
+#Force HTTPS
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^esempio.com [NC]
+RewriteRule ^(.*)$ http://www.esempio.com/$1 [L,R=301,NC]
+
+#Remove / at the end of an url
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [R=301,L]
+
+#Remove .html extension
+
+RewriteEngine on
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^.]+)$ $1.html [NC,L]
+
+#File compression with gzip/deflate
+
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
