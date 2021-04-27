@@ -33,7 +33,7 @@
 
   homebrew, gba, gb, gbc, nes, emulator, dscraft, moonshell,
 
-  mod, modding, cfw, ntrboot, gm9, dercypt9, backup,
+  mod, modding, cfw, ntrboot, gm9, decrypt9, backup,
 
   ">
   <link href="https://projectr4vival.github.io/style.css" rel = "stylesheet">
@@ -52,12 +52,22 @@
         </td>
         <td align = right>
           <ul id = "sub_header"> 
-            <li><a href = "#content">About</a></li> 
-            <li><a href = "https://projectr4vival.github.io/kernel">Kernel</a></li> 
+            <li><a href = "https://projectr4vival.github.io/">About</a></li> 
+            <li><a href = "https://projectr4vival.github.io/kernel">Home</a></li> 
             <li><a href = "https://projectr4vival.github.io/dumping">Dumping</a></li>
             <li><a href = "https://projectr4vival.github.io/homebrew">Homebrew</a></li> 
             <li><a href = "https://projectr4vival.github.io/credits">Credits</a></li>
             <li><a href = "" target = "_blank"><img src = "https://projectr4vival.github.io/discord.png"></a></li> 
+            <li>
+              <div class="dropdown">
+                <img src = "https://projectr4vival.github.io/language.png" onclick="showDropdown()" class="dropbtn">
+                  <div id="myDropdown" class="dropdown-content">
+                    <a href="https://projectr4vival.github.io/">English</a>
+                    <hr>
+                    <a href="#">Italiano</a>
+                  </div>
+              </div>
+            </li>
           </ul> 
         </td>
       </tr>
@@ -73,7 +83,7 @@
     <p>A flashcard is made of different components, which include a rom, basically a flash memory. In this memory is stored the firmware of your flashcard, which is the software that allows it to being read by your console, and to boot the kernel from the sd card. If a flashcard isn't correctly read even if it has the right kernel, that's probably due to your console not being able to read the firmware, or blocking it. In this case, a firmware update could unblock your card, or even make it runs on newer consoles although to update you usually need a console which can boot your flashcard.</p>
     <br>
 
-    <input type = "text" id = "input" onkeyup = "myFunction()" placeholder = "Search for names...">
+    <input type = "text" id = "input" onkeyup = "listSearch()" placeholder = "Search for names...">
 
     <ul id = "option">
       <li><a href = "#">Acekard - acekard.com</a></li>

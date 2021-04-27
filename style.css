@@ -55,13 +55,15 @@ a:hover {
 #sub_header > li > a {
   color: #FFF; 
   display: block; 
-  transition: 0.3s}
+  transition: 0.3s;
+}
 
 #sub_header > li:hover {
   color: #FFF; 
   background-color: #434343; 
   transition: 0.3s; 
-  border-radius: 3px}
+  border-radius: 3px;
+}
 
 #sub_header img {
   margin-bottom: -5px;
@@ -171,3 +173,44 @@ a:hover {
 #option li a:hover:not(.header) {
   background-color: #434343; /* Add a hover effect to all links, except for headers */
 }
+
+
+/* Dropdown */
+
+.dropbtn {
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2e2e2e;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1; /*set the overlap level*/
+  right: 0;
+  margin-top: 20px;
+  margin-right: -20px;
+  border-radius: 3px;
+}
+
+.dropdown-content hr {
+  margin: 0 5px 0 5px;
+}
+
+.dropdown-content a {
+  padding: 12px 16px 12px 20px;
+  text-align: left;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #434343}
+
+/* Show the dropdown menu (JS) */
+.show {display:block;} 
