@@ -199,6 +199,7 @@ a:hover {
   margin-right: -20px;
   border-radius: 3px;
   font-size: 22px;
+  
 }
 
 .dropdown-content hr {
@@ -214,4 +215,6 @@ a:hover {
 .dropdown-content a:hover {background-color: #434343}
 
 /* Show the dropdown menu (JS) */
-.show {display:block;} 
+.show {
+  display:block;
+} 
