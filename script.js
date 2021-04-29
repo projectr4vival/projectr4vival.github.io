@@ -43,7 +43,7 @@ window.onclick = function(event) {
 var slideIndex = 1;
 showDivs(slideIndex);
 
-function plusDivs(n) {
+function plusSlides(n) {
   showDivs(slideIndex += n);
 }
 
