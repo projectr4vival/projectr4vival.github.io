@@ -40,7 +40,7 @@ window.onclick = function(event) {
 
 
 //Slideshow
-var slideIndex = 2;
+var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls

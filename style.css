@@ -43,7 +43,7 @@ a:hover {
 
 #sub_header {
   margin: 0; 
-  list-style-type: none
+  list-style-type: none;
 }
 
 #sub_header > li {
@@ -212,15 +212,14 @@ a:hover {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #434343}
+.dropdown-content a:hover {
+  background-color: #434343;
+}
 
 /* Show the dropdown menu (JS) */
 .show {
   display:block;
 }
-
-
-* {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
