@@ -246,9 +246,9 @@ hr {
   display: none;
 }
 
-#slide1 {
+/*#slide1 {
   display:block;
-}
+}*/
 
 /* Next & previous buttons */
 .prev, .next {
