@@ -116,13 +116,17 @@ function showSlides(n) {
 }*/
 
 
-var slideIndex = 0;
-showSlides();
-
+/*var slideIndex = 0;
 var i;
-var slides = document.getElementsByClassName("mySlides");
+var slides = document.getElementsByClassName("mySlides");*/
+
+//showSlides();
 
 function showSlides() {
+  var slideIndex = 0;
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+
   /*for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }*/
