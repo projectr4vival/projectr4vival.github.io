@@ -120,7 +120,7 @@ function showSlides(n) {
 var i;
 var slides = document.getElementsByClassName("mySlides");*/
 
-//showSlides();
+showSlides();
 
 function showSlides() {
   var slideIndex = 0;
