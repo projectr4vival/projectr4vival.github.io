@@ -116,14 +116,13 @@ function showSlides(n) {
 }*/
 
 
-/*var slideIndex = 0;
-var i;
+var slideIndex = 0;
+/*var i;
 var slides = document.getElementsByClassName("mySlides");*/
 
 showSlides();
 
 function showSlides() {
-  var slideIndex = 0;
   var i;
   var slides = document.getElementsByClassName("mySlides");
 
