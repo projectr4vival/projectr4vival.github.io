@@ -244,7 +244,7 @@ hr {
 /* Hide the images by default */
 .mySlides {
   display: none;
-  height: 280px;
+  max-height: 260px;
 }
 
 /* Next & previous buttons */
