@@ -242,7 +242,7 @@ hr {
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides img {
   display: none;
   max-height: 260px;
 }
