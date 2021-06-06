@@ -123,11 +123,11 @@ var slides = document.getElementsByClassName("mySlides");
 showSlides();
 
 function plusSlides(n) {
-  showSlides(slideIndex += n);
+  changeSlides(slideIndex += n);
 }
 
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+  changeSlides(slideIndex = n);
 }
 
 function showSlides() {
@@ -143,7 +143,7 @@ function showSlides() {
   
 } 
 
-function showSlides(n) {
+function changeSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
