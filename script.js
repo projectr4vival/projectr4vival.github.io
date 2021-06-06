@@ -124,10 +124,12 @@ showSlides();
 
 function plusSlides(n) {
   changeSlides(slideIndex += n);
+  setTimeout(showSlides, 3000);
 }
 
 function currentSlide(n) {
   changeSlides(slideIndex = n);
+  setTimeout(showSlides, 3000);
 }
 
 function showSlides() {
@@ -139,7 +141,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
   
 } 
 
