@@ -122,6 +122,14 @@ var slides = document.getElementsByClassName("mySlides");
 
 showSlides();
 
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
 function showSlides() {
 
   for (i = 0; i < slides.length; i++) {
