@@ -144,8 +144,6 @@ function showSlides() {
 } 
 
 function changeSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
