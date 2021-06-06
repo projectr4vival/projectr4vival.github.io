@@ -124,12 +124,12 @@ showSlides();
 
 function plusSlides(n) {
   changeSlides(slideIndex += n);
-  setTimeout(showSlides, 3000);
+  showSlides();
 }
 
 function currentSlide(n) {
   changeSlides(slideIndex = n);
-  setTimeout(showSlides, 3000);
+  showSlides();
 }
 
 function showSlides() {
