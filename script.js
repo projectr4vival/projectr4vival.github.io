@@ -96,22 +96,15 @@ showSlides();
 
 function plusSlides(n) {
   changeSlides(slideIndex += n);
-  showSlides();
 }
 
 function currentSlide(n) {
   changeSlides(slideIndex = n);
-  showSlides();
 }
 
 function showSlides() {
 
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
+  clearSlides();
 
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
@@ -124,15 +117,22 @@ function showSlides() {
 function changeSlides(n) {
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
+  
+  clearSlides();
+
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+
+  clearTimeout(timer);
+  timer;
+  showSlides();
+}
+
+function clearSlides() {
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-
-  clearTimeout(timer);
-  timer;
 }
