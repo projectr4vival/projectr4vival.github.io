@@ -253,7 +253,8 @@ hr {
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  padding: 18px 10px 5px 10px;
+  padding: 10px 10px 5px 10px;
+  margin-top: 10px;
 }
 
 .slideshow-container img {
