@@ -19,12 +19,12 @@ body {
 a {
   text-decoration: none;
   color: #a5d7e4;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 a:hover {
   color: #fff;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 hr {
@@ -65,13 +65,13 @@ hr {
 #sub_header > li > a {
   color: #FFF; 
   display: block; 
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 #sub_header > li:hover {
   color: #FFF; 
   background-color: #434343; 
-  transition: 0.3s; 
+  transition: 0.2s; 
   border-radius: 3px;
 }
 
@@ -107,18 +107,18 @@ hr {
 
 #container td {
   padding: 10px 25px 10px 25px;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 #highlight {
-  transition: 0.3s;
+  transition: 0.2s;
   padding: 5px 5px 5px 5px;
 }
 
 #highlight:hover {
   background-color: #434343;
   border-radius: 10px;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 #footer {
@@ -153,13 +153,13 @@ hr {
   border: 0px;
   border-radius: 5px;
   margin-bottom: 20px; /* Add some space below the input */
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 #input:focus {
   outline:none!important; /* da finire */
   background-color: #2e2e2e;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 #option {
