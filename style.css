@@ -47,6 +47,7 @@ hr {
   border: 2px solid #434343;
   border-radius: 10px;
   background-color: #2e2e2e;
+  width: 1000px
   transition: 0.2s;
 }
 
