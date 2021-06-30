@@ -350,6 +350,7 @@ hr {
   font-size: 20px;
   background-color: #2e2e2e;
   color: #cecece;
+  border: 2px solid #434343;
 }
 
 .spoilerbutton:hover {
