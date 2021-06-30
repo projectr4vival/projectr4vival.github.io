@@ -376,11 +376,12 @@ hr {
   transition: 1s;
 }
 
-.spoiler p {
+.spoiler a {
   transition: 0.2s;
+  display: block;
 }
 
-.spoiler p:hover {
+.spoiler a:hover {
   border-radius: 5px;
   background-color: #434343;
   transition: 0.2s;
