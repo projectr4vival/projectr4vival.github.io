@@ -373,6 +373,10 @@ hr {
   margin: 5px;
   overflow: hidden;
   transition: all 1s ease;
+  transition: 1s;
+}
+
+.spoiler p {
   transition: 0.2s;
 }
 
