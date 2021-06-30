@@ -20,6 +20,7 @@ a {
   text-decoration: none;
   color: #a5d7e4;
   transition: 0.2s;
+  display: block;
 }
 
 a:hover {
