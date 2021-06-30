@@ -381,5 +381,5 @@ hr {
 }
 
 .spoilerbutton[value="Hide"]+.spoiler>div {
-  max-height: auto;
+  max-height: 1000px;
 }
