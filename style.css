@@ -370,6 +370,7 @@ hr {
   margin: 5px;
   overflow: hidden;
   transition: all 1s ease;
+  transition: 0.2s;
 }
 
 .spoilerbutton[value="Show"]+.spoiler>div {
