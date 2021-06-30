@@ -50,7 +50,6 @@ hr {
 
 #button {
   padding: 15px 15px 15px 15px;
-  font-size: 25px;
   text-align: center;
   border: 2px solid #434343;
   border-radius: 10px;
@@ -347,6 +346,7 @@ hr {
   display: block;
   margin-bottom: 5px;
   margin-top: 25px;
+  font-size: 20px;
 }
 
 .spoiler {
