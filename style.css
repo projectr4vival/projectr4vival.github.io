@@ -364,10 +364,10 @@ hr {
 
 .spoilerbutton[value="Show"]+.spoiler>div {
   max-height: 0px;
-  display: block;
+  display: none;
 }
 
 .spoilerbutton[value="Hide"]+.spoiler>div {
   max-height: auto; /*use a big value here*/
-  display: none;
+  display: block;
 }
