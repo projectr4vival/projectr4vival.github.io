@@ -347,6 +347,7 @@ hr {
   display: block;
   margin-bottom: 10px;
   margin-top: 25px;
+  padding: 5px 5px 5px 5px;
   font-size: 20px;
   background-color: #2e2e2e;
   color: #cecece;
@@ -366,22 +367,19 @@ hr {
   background-color: #2e2e2e;
   border-radius: 10px;
   padding-left: 25px;
-  transition: 0.2s;
+  transition: height 3s;
 }
 
 .spoiler > div {
   margin: 5px;
   overflow: hidden;
   transition: all 1s ease;
-  transition: 0.2s;
 }
 
 .spoilerbutton[value="Show"]+.spoiler>div {
   max-height: 0px;
-  transition: 0.2s;
 }
 
 .spoilerbutton[value="Hide"]+.spoiler>div {
   max-height: auto;
-  transition: 0.2s;
 }
