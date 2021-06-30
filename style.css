@@ -366,6 +366,7 @@ hr {
   background-color: #2e2e2e;
   border-radius: 10px;
   padding-left: 25px;
+  transition: 0.2s;
 }
 
 .spoiler > div {
