@@ -375,6 +375,12 @@ hr {
   transition: all 1s ease;
 }
 
+.spoiler p:hover {
+  border-radius: 5px;
+  background-color: #434343;
+  transition: 0.2s;
+}
+
 .spoilerbutton[value="Other Languages"]+.spoiler>div {
   max-height: 0px;
 }
