@@ -347,13 +347,13 @@ hr {
   display: block;
   margin-bottom: 5px;
   margin-top: 25px;
-  padding-left: 25px;
 }
 
 .spoiler {
   overflow: hidden;
   background-color: #2e2e2e;
   border-radius: 5px;
+  padding-left: 25px;
 }
 
 .spoiler > div {
