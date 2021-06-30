@@ -347,7 +347,7 @@ hr {
   display: block;
   margin-bottom: 10px;
   margin-top: 25px;
-  padding: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
   font-size: 20px;
   background-color: #2e2e2e;
   color: #cecece;
@@ -367,7 +367,6 @@ hr {
   background-color: #2e2e2e;
   border-radius: 10px;
   padding-left: 25px;
-  /*transition: height 3s;*/
 }
 
 .spoiler > div {
@@ -381,5 +380,5 @@ hr {
 }
 
 .spoilerbutton[value="Hide"]+.spoiler>div {
-  max-height: 1000px;
+  max-height: 800px;
 }
