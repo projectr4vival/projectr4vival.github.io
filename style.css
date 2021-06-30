@@ -341,11 +341,13 @@ hr {
 
 .spoilerbutton {
   display: block;
-  margin: 5px 0;
+  margin: 25px 0;
 }
 
 .spoiler {
   overflow: hidden;
+  background-color: #2e2e2e;
+  border-radius: 5px;
 }
 
 .spoiler > div {
