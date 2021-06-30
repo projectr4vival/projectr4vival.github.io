@@ -353,6 +353,7 @@ hr {
   overflow: hidden;
   background-color: #2e2e2e;
   border-radius: 5px;
+  display: none;
 }
 
 .spoiler > div {
@@ -363,8 +364,10 @@ hr {
 
 .spoilerbutton[value="Show"]+.spoiler>div {
   max-height: 0px;
+  display: block;
 }
 
 .spoilerbutton[value="Hide"]+.spoiler>div {
   max-height: auto; /*use a big value here*/
+  display: none;
 }
