@@ -345,12 +345,13 @@ hr {
 
 .spoilerbutton {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   margin-top: 25px;
   font-size: 20px;
   background-color: #2e2e2e;
   color: #cecece;
   border: 2px solid #434343;
+  border-radius: 5px;
 }
 
 .spoilerbutton:hover {
@@ -360,7 +361,7 @@ hr {
 .spoiler {
   overflow: hidden;
   background-color: #2e2e2e;
-  border-radius: 5px;
+  border-radius: 10px;
   padding-left: 25px;
 }
 
