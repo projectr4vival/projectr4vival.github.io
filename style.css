@@ -376,7 +376,7 @@ hr {
   transition: all 1s ease;
 }
 
-.spoilerbutton[value="Show"]+.spoiler>div {
+.spoilerbutton[value="Other Languages"]+.spoiler>div {
   max-height: 0px;
 }
 
