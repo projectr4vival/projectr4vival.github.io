@@ -373,6 +373,7 @@ hr {
   margin: 5px;
   overflow: hidden;
   transition: all 1s ease;
+  transition: 0.2s;
 }
 
 .spoiler p:hover {
@@ -380,6 +381,7 @@ hr {
   background-color: #434343;
   transition: 0.2s;
   padding: 10px 10px 10px 10px;
+  transition: 0.2s;
 }
 
 .spoilerbutton[value="Other Languages"]+.spoiler>div {
