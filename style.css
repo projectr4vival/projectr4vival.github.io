@@ -366,7 +366,7 @@ hr {
   overflow: hidden;
   background-color: #2e2e2e;
   border-radius: 10px;
-  padding-left: 25px;
+  padding: 0 25px 0 25px;
 }
 
 .spoiler > div {
@@ -379,6 +379,7 @@ hr {
   border-radius: 5px;
   background-color: #434343;
   transition: 0.2s;
+  padding: 5px 5px 5px 5px;
 }
 
 .spoilerbutton[value="Other Languages"]+.spoiler>div {
