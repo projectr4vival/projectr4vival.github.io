@@ -40,6 +40,11 @@ hr {
     border-top: 1px solid #555555;
 }
 
+.omegatitle {
+  font-size: 30px;
+  padding-top: 50px;
+}
+
 #title {
   font-size: 25px;
 }
