@@ -53,7 +53,7 @@
           <p><h1>R4i Ultra</h1></p>
           <ul>
             <li><a href="#kernel">Kernel</a></li>
-            <li><a href="#kernel">Firmware Update</a></li>
+            <li><a href="#firmware">Firmware Update</a></li>
             <li><a href="#kernel">NTRBoot Compatibility (+ flashrom backup)</a></li>
             <li><a href="#kernel">Other</a></li>
             <li><a href="#kernel">PCB</a></li>
@@ -240,6 +240,33 @@
         </td>
       </tr>
     </table>
+
+    <p id="firmware" class="omegatitle"><i>Firmware Update</i></p>
+
+    <p>
+      This is the latest firmware update for the flashcard that makes it compatible up to 3DS (and 2DS) firmware v2.1.
+      <br>
+      If you have a newer firmware than 2.1 on your 3DS (or 2DS) console, you may want to bypass any flashcard block by installing a custom firmware on your console. Check <a href="https://3ds.hacks.guide/">this guide</a> to know how, and installing lumacfw on your console. This will allow the flashcard to be read again by the console.
+    </p>
+
+    <p id="subtitle"><i>Setup</i></p>
+    <p>You need a console that can properly read the flashcard in order to update it. So most likely, a Nintendo DS (Lite) or a Nintendo DSi on a low version of the firmware.</p>
+    <p>
+      I suggest to use an empty sd with the official kernel on to do this. You should also be able to do it on any sd with any kernel, but this is more likely to give errors, and this a delicate procedure.
+      <br>
+      Any error during the procedure may infact brick your flashcard and make it unrecoverable, so update at your own risk, and charge your console fully before doing this.
+    </p>
+    <p>Ok, now download and extract the archive. There will be 2 .nds files in it, like these.</p>
+    <img src="https://projectr4vival.github.io/r4ultra/files_firmware.jpg" id="container">
+    <p>The names of the files pretty much explains them. If you're using a Nintendo DS (Lite) console to perform the update, you'll need the file whose name ends with DSL, so the second one. Instead, if you're using a Nintendo DSi for this, take the first one.</p>
+    <p>
+      Now place the .nds file on the sd you prepared before, and launch it from the flashcard as it was a game.
+      <br>
+      This will prompt you in the update screen.
+    </p>
+
+
+
     
 
   </div>
