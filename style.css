@@ -16,7 +16,7 @@ body {
   height: 100%;
 }
 
-p {
+p, h1, hr {
   max-width: 1250px;
   margin: 0 auto;
 }
