@@ -16,7 +16,7 @@ body {
   height: 100%;
 }
 
-#header, #banner, #content, #footer {
+p {
   max-width: 1250px;
   margin: 0 auto;
 }
