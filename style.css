@@ -16,7 +16,7 @@ body {
   height: 100%;
 }
 
-main {
+#main {
   max-width: 1250px;
   margin: auto;
 }
