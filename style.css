@@ -3,7 +3,6 @@ html {
   box-sizing: border-box;
   height: 100%;
   /*image-rendering: -webkit-optimize-contrast; /* fix downscale blurryness in Chrome */
-  max-width: 1250px;
 }
 
 body {
@@ -15,6 +14,7 @@ body {
   padding: 0;
   text-align: justify;
   height: 100%;
+  max-width: 1250px;
 }
 
 a {
