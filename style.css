@@ -100,24 +100,24 @@ hr {
   height: auto;
 }
 
-div #sub_header {
+#sub_header {
   margin: 0; 
   list-style-type: none;
 }
 
-div #sub_header > li {
+#sub_header > li, overlay-content > li {
   display: inline-block; 
   transition: all .2s linear; 
   padding: 10px 20px 10px 20px;
 }
 
-#sub_header > li > a {
+#sub_header > li > a, overlay-content > li > a {
   color: #FFF; 
   display: block; 
   transition: 0.2s;
 }
 
-#sub_header > li:hover {
+#sub_header > li:hover, overlay-content > li:hover {
   color: #FFF; 
   background-color: #434343; 
   transition: 0.2s; 
