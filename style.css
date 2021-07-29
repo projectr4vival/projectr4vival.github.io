@@ -144,10 +144,6 @@ hr {
   background-color: #2e2e2e;
 }
 
-#container img {
-  object-fit: contain;
-}
-
 #container td {
   padding: 10px 25px 10px 25px;
   transition: 0.2s;
@@ -532,8 +528,8 @@ hr {
 
 /* Rotate first bar */
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-11px, 3px);
-  transform: rotate(-45deg) translate(-11px, 3px);
+  -webkit-transform: rotate(-45deg) translate(0px, 11px);
+  transform: rotate(-45deg) translate(0px, 11px);
 }
 
 /* Fade out the second bar */
@@ -543,6 +539,6 @@ hr {
 
 /* Rotate last bar */
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-11px, 3px);
-  transform: rotate(45deg) translate(-11px, 3px);
+  -webkit-transform: rotate(45deg) translate(0px, 0px);
+  transform: rotate(45deg) translate(0px, 0px);
 }
