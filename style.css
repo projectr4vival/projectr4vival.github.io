@@ -532,8 +532,8 @@ hr {
 
 /* Rotate first bar */
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(0px, 0px);
-  transform: rotate(-45deg) translate(0px, 0px);
+  -webkit-transform: rotate(-45deg) translate(-12px, 0px);
+  transform: rotate(-45deg) translate(-12px, 0px);
 }
 
 /* Fade out the second bar */
@@ -543,6 +543,6 @@ hr {
 
 /* Rotate last bar */
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(0px, 0px);
-  transform: rotate(45deg) translate(0px, 0px);
+  -webkit-transform: rotate(45deg) translate(-12px, 0px);
+  transform: rotate(45deg) translate(-12px, 0px);
 }
