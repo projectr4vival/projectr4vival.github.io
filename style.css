@@ -16,6 +16,16 @@ body {
   height: 100%;
 }
 
+@media (max-width: 450px) {
+
+body {font-size: 30px;}
+
+.closebtn {display: block;}
+
+}
+
+.closebtn {display: none;}
+
 #content {
   max-width: 1300px;
   margin: auto;

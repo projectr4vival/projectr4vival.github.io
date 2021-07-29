@@ -12,11 +12,13 @@ header.innerHTML =
   </td>
   <td align = right>
     <ul id = "sub_header"> 
-      <li><a href = "https://projectr4vival.github.io/">Home</a></li> 
-      <li><a href = "https://projectr4vival.github.io/kernel">Kernel</a></li> 
-      <li><a href = "https://projectr4vival.github.io/dumping">Dumping</a></li>
-      <li><a href = "https://projectr4vival.github.io/homebrew">Homebrew</a></li> 
-      <li><a href = "https://projectr4vival.github.io/credits">Credits</a></li> 
+      <div class = "overlay-content">
+        <li><a href = "https://projectr4vival.github.io/">Home</a></li> 
+        <li><a href = "https://projectr4vival.github.io/kernel">Kernel</a></li> 
+        <li><a href = "https://projectr4vival.github.io/dumping">Dumping</a></li>
+        <li><a href = "https://projectr4vival.github.io/homebrew">Homebrew</a></li> 
+        <li><a href = "https://projectr4vival.github.io/credits">Credits</a></li> 
+      </div>
       <li><a href = "https://projectr4vival.github.io/discord" target = "_blank"><img src = "https://projectr4vival.github.io/discord.svg"></a></li> 
       <li> 
         <div class="dropdown">
