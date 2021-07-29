@@ -12,7 +12,13 @@ header.innerHTML =
   </td>
   <td align = right>
     <ul id = "sub_header"> 
-      <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+      <li>
+        <div class="menu" onclick="showMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div> 
+      </li>
       <div class = "overlay-content">
         <li><a href = "https://projectr4vival.github.io/">Home</a></li> 
         <li><a href = "https://projectr4vival.github.io/kernel">Kernel</a></li> 
@@ -162,4 +168,10 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
+} 
+
+
+/* Mobile Menu */
+function showMenu(x){
+  x.classList.toggle("change");
 } 
