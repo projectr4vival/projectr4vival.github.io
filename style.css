@@ -24,7 +24,7 @@ body {font-size: 50px;}
 
 }
 
-.closebtn {display: block;}
+.closebtn {display: none;}
 
 #content {
   max-width: 1300px;
