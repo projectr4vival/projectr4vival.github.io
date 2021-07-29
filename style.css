@@ -501,14 +501,12 @@ body {font-size: 30px;}
 }
 
 #content, #banner {
-  padding: 0;
+  padding: auto;
 }
 
 .overlay-content {display: none;}
 
 }
-
-.overlay-content {display: inline-block;}
 
 /* Mobile Menu Button */
 
