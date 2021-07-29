@@ -100,12 +100,12 @@ hr {
   height: auto;
 }
 
-#sub_header {
+div #sub_header {
   margin: 0; 
   list-style-type: none;
 }
 
-#sub_header > li {
+div #sub_header > li {
   display: inline-block; 
   transition: all .2s linear; 
   padding: 10px 20px 10px 20px;
