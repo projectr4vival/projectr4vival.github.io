@@ -144,6 +144,10 @@ hr {
   background-color: #2e2e2e;
 }
 
+#container img {
+  object-fit: contain;
+}
+
 #container td {
   padding: 10px 25px 10px 25px;
   transition: 0.2s;
