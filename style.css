@@ -501,6 +501,7 @@ hr {
 
 #content, #banner {
   padding: 0, 2px, 0, 2px;
+  margin: 0;
 }
 
 .overlay-content {display: none;}
