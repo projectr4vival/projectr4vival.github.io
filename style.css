@@ -93,6 +93,7 @@ hr {
 #sub_header {
   margin: 0; 
   list-style-type: none;
+  display: inline-block; 
 }
 
 #sub_header li {
