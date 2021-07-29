@@ -494,7 +494,7 @@ hr {
 @media only screen and (max-width: 450px) {
 
 .menu {
-  display: inline-block;
+  display: block;
   cursor: pointer;
 }
 
