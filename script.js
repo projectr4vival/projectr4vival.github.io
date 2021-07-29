@@ -19,7 +19,7 @@ header.innerHTML =
           <div class="bar3"></div>
         </li>
       </div>
-      <div class = "overlay-content">
+      <div class = "overlay_content">
         <li><a href = "https://projectr4vival.github.io/">Home</a></li> 
         <li><a href = "https://projectr4vival.github.io/kernel">Kernel</a></li> 
         <li><a href = "https://projectr4vival.github.io/dumping">Dumping</a></li>
