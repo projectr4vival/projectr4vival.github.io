@@ -500,7 +500,7 @@ hr {
 }
 
 #content, #banner {
-  padding: 0, 5px, 0, 5px;
+  padding: 0, 2px, 0, 2px;
 }
 
 .overlay-content {display: none;}
