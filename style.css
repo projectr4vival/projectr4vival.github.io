@@ -508,6 +508,8 @@ body {font-size: 30px;}
 
 }
 
+.overlay-content {display: inline-block;}
+
 /* Mobile Menu Button */
 
 .menu {
