@@ -95,7 +95,7 @@ hr {
   list-style-type: none;
 }
 
-#sub_header li, #sub_header .overlay_content li {
+#sub_header li, #sub_header div {
   display: inline-block; 
   transition: all .2s linear; 
   padding: 10px 20px 10px 20px;
