@@ -500,6 +500,8 @@ body {font-size: 50px;}
   cursor: pointer;
 }
 
+.overlay-content {display: none;}
+
 }
 
 /* Mobile Menu Button */
