@@ -500,7 +500,7 @@ body {font-size: 30px;}
   cursor: pointer;
 }
 
-#content {
+#content, #banner {
   padding: 0;
 }
 
