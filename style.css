@@ -498,7 +498,7 @@ hr {
 
 @media only screen and (max-width: 450px) {
 
-.menu {
+.menu, .menu li {
   display: inline-block;
   cursor: pointer;
 }
@@ -514,8 +514,8 @@ hr {
 
 /* Mobile Menu Button */
 
-.menu {
-  display: inline-block;
+.menu, .menu li {
+  display: none;
 }
 
 .bar1, .bar2, .bar3 {
