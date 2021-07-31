@@ -130,6 +130,7 @@ hr {
   background-image: url("banner.jpg");
   background-size: cover; /*fa sì che un immagine in bg copra l'intero div*/
   padding: 80px 0px 80px 60px; 
+  border-top: 1px solid #555555;
 }
 
 #content {
