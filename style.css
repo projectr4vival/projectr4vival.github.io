@@ -516,6 +516,7 @@ hr {
 
 .menu {
   display: none;
+  visibility: hidden;
 }
 
 .bar1, .bar2, .bar3 {
