@@ -513,13 +513,8 @@ hr {
 
 /* Mobile Menu Button */
 
-/*.menu {
-  display: none;
-}*/
-
 .menu {
-  display: block;
-  cursor: pointer;
+  display: none;
 }
 
 .bar1, .bar2, .bar3 {
