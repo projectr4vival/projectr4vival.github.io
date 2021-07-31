@@ -500,6 +500,7 @@ hr {
 
 .menu {
   display: block;
+  visibility: visible;
   cursor: pointer;
 }
 
