@@ -12,11 +12,6 @@ header.innerHTML =
   </td>
   <td align = right>
     <ul id = "sub_header"> 
-      <li class="menu" onclick="showMenu(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </li>
       <div class = "overlay_content">
         <li><a href = "https://projectr4vival.github.io/">Home</a></li> 
         <li><a href = "https://projectr4vival.github.io/kernel">Kernel</a></li> 
@@ -35,6 +30,11 @@ header.innerHTML =
             </div>
         </div> 
       </li> 
+      <li class="menu" onclick="showMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </li>
     </ul> 
   </td>
 </tr>
