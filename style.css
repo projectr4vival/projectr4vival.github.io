@@ -95,14 +95,14 @@ hr {
   list-style-type: none;
 }
 
-#sub_header li, #sub_header .menu, #sub_header .overlay_content{
+#sub_header li{
   display: inline-block; 
   transition: all .2s linear; 
   padding: 10px 20px 10px 20px;
 }
 
-.overlay_content {
-  padding: 0;
+.menu, .overlay_content {
+  display: inline-block;
 }
 
 #sub_header li > a {
