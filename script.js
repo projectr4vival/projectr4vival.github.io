@@ -30,13 +30,11 @@ header.innerHTML =
             </div>
         </div> 
       </li> 
-      <div class="menu" onclick="showMenu(this)">
-        <li>
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-        </li>
-      </div>
+      <li class="menu" onclick="showMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </li>
     </ul> 
   </td>
 </tr>
