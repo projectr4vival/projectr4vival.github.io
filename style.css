@@ -501,6 +501,9 @@ hr {
 .menu {
   display: inline-block;
   cursor: pointer;
+}
+
+#sub_header img {
   margin-bottom: -5px;
 }
 
