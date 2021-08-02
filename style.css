@@ -524,6 +524,7 @@ hr {
   background-color: #fff;
   margin: 4px 0;
   transition: 0.4s;
+  margin-bottom: -5px;
 }
 
 /* Rotate first bar */
