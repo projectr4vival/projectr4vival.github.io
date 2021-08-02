@@ -501,6 +501,7 @@ hr {
 .menu {
   display: inline-block;
   cursor: pointer;
+  margin-bottom: -5px;
 }
 
 #content, #banner {
@@ -516,7 +517,6 @@ hr {
 
 .menu {
   display: none;
-  margin-bottom: -5px;
 }
 
 .bar1, .bar2, .bar3 {
