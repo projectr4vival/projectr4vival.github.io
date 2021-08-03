@@ -494,6 +494,6 @@ hr {
   }
 
 
-.menu {
+.menu, .menu:hover {
   display: none;
 }
