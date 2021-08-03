@@ -39,8 +39,8 @@
 
 /* Rotate first bar */
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(0px, 13.5px);
-  transform: rotate(-45deg) translate(0px, 13.5px);
+  -webkit-transform: rotate(-45deg) translate(0px, 14px);
+  transform: rotate(-45deg) translate(0px, 14px);
 }
 
 /* Fade out the second bar */
@@ -50,8 +50,8 @@
 
 /* Rotate last bar */
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(0px, -13.5px);
-  transform: rotate(45deg) translate(0px, -13.5px);
+  -webkit-transform: rotate(45deg) translate(0px, -14px);
+  transform: rotate(45deg) translate(0px, -14px);
 }
 
 }
