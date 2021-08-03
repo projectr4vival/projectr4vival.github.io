@@ -57,7 +57,7 @@
 /* Overwrite styles on devices with no hover capabilities */
 
 @media (hover: none) {
-  .sub_header li:hover { 
+  #sub_header li:hover { 
     background-color: inherit;
     transition: 0s;
   }
