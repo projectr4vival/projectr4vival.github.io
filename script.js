@@ -52,9 +52,7 @@ footer.innerHTML =
 
 
 //Scroll the page up on loading
-window.onunload = function() {
-    $("html,body").animate({ scrollTop: 0 }, 'fast');
-}
+window.onload="animate({ scrollTop: 0 }, 'fast');"
 
 
 function listSearch() {
