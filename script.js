@@ -11,7 +11,7 @@ header.innerHTML =
     </a>
   </td>
   <td align = right>
-    <ul id = "sub_header"> 
+    <ul class = "sub_header"> 
       <div class = "overlay_content">
         <li><a href = "https://projectr4vival.github.io/">Home</a></li> 
         <li><a href = "https://projectr4vival.github.io/kernel">Kernel</a></li> 
