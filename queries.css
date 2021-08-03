@@ -59,6 +59,7 @@
 @media (hover: none) {
   #sub_header li:hover { 
     background-color: transparent;
+    transition: 0s;
   }
 }
 
