@@ -50,8 +50,8 @@
 
 /* Rotate last bar */
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(0px, -14px);
-  transform: rotate(45deg) translate(0px, -14px);
+  -webkit-transform: rotate(45deg) translate(0px, -14px) translateX(-5px);
+  transform: rotate(45deg) translate(0px, -14px) translateX(-5px);
 }
 
 }
