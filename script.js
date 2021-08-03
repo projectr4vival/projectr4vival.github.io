@@ -52,7 +52,14 @@ footer.innerHTML =
 
 
 //Scroll the page up on loading
-window.onload="animate({ scrollTop: 0 }, 'fast');"
+$(document).ready(function() {
+var url = window.location.href;
+console.log(url);
+if( url.indexOf('#') < 0 ) {
+    window.location.replace(url + "#");
+} else {
+    window.location.replace(url);
+}
 
 
 function listSearch() {
