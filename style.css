@@ -494,6 +494,6 @@ hr {
   }
 
 
-li.menu {
+#sub_header .menu {
   display: none;
 }
