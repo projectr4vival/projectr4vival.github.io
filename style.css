@@ -112,7 +112,7 @@ hr {
   transition: 0.2s;
 }
 
-#sub_header li:hover, #sub_header li:active {
+#sub_header li:hover {
   color: #FFF; 
   background-color: #434343; 
   transition: 0.2s; 
