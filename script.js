@@ -52,7 +52,7 @@ footer.innerHTML =
 
 
 //Scroll the page up on loading
-$(window).load(function(){
+$(window).on('beforeunload', function() {
     $("html,body").animate({ scrollTop: 0 }, 'fast');
 });
 
