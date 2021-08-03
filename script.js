@@ -51,6 +51,10 @@ footer.innerHTML =
 </table>`;
 
 
+//Scroll the page up on loading
+$('html, body').animate({ scrollTop: 0 }, 'fast');
+
+
 function listSearch() {
   // Declare variables
   var input, filter, ul, li, a, i, txtValue;
