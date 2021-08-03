@@ -58,7 +58,7 @@
 
 @media (hover: none) {
   #sub_header li:hover { 
-    background-color: transparent;
+    background-color: inherit;
     transition: 0s;
   }
 }
