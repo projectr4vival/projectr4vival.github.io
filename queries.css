@@ -17,6 +17,10 @@
 
 /* Mobile Menu */
 
+li .menu {
+  margin-top: 5px;
+}
+
 .menu {
   display: inline-block;
   cursor: pointer;
@@ -35,8 +39,8 @@
 
 /* Rotate first bar */
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(0px, 12px);
-  transform: rotate(-45deg) translate(0px, 12px);
+  -webkit-transform: rotate(-45deg) translate(0px, 13px);
+  transform: rotate(-45deg) translate(0px, 13px);
 }
 
 /* Fade out the second bar */
@@ -46,8 +50,8 @@
 
 /* Rotate last bar */
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(0px, -12px);
-  transform: rotate(45deg) translate(0px, -12px);
+  -webkit-transform: rotate(45deg) translate(0px, -13px);
+  transform: rotate(45deg) translate(0px, -13px);
 }
 
 }
