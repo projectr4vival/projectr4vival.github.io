@@ -52,13 +52,8 @@ footer.innerHTML =
 
 
 //Scroll the page up on loading
-$(document).ready(function() {
-var url = window.location.href;
-console.log(url);
-if( url.indexOf('#') < 0 ) {
-    window.location.replace(url + "#");
-} else {
-    window.location.replace(url);
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
 }
 
 
