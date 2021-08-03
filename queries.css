@@ -54,4 +54,10 @@
   transform: rotate(45deg) translate(0px, -14px);
 }
 
+@media (hover: none) {
+  #sub_header li:hover { 
+    background-color: transparent;
+  }
+}
+
 }
