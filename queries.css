@@ -19,22 +19,8 @@
   display: none;
 }
 
-@media not all and (min-resolution:.001dpcm) { 
-    @media {
-        .safari10 { 
-            #sub_header li {
-              -webkit-tap-highlight-color: #434343; /* As the :active pseudoclass doesn't work on safari */
-              transition: 0s;
-              border-radius: 3px;
-            }
-        }
-    }
-}
-
-
-
-#sub_header li:active {
-  background-color: #434343; /* As the :active pseudoclass doesn't work on safari */
+#sub_header li {
+  -webkit-tap-highlight-color: #434343; /* As the :active pseudoclass doesn't work on safari */
   transition: 0s;
   border-radius: 3px;
 }
