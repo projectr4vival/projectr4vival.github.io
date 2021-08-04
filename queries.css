@@ -20,13 +20,12 @@
 }
 
 #sub_header li {
-  -webkit-tap-highlight-color: #ccc;
+  -webkit-tap-highlight-color: #434343;
 }
 
 #sub_header li:active {
   color: #FFF; 
   background-color: #434343; 
-  transition: 0.2s; 
   border-radius: 3px;
 }
 
