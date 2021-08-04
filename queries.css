@@ -19,6 +19,13 @@
   display: none;
 }
 
+#sub_header li:active {
+  color: #FFF; 
+  background-color: #434343; 
+  transition: 0.2s; 
+  border-radius: 3px;
+}
+
 /* Mobile Menu */
 
 #sub_header .menu {
