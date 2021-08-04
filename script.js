@@ -84,7 +84,7 @@ function showDropdown() {
 }
 
 // Close the dropdown menu if the user clicks outside of it
-/*window.onclick = function(event) {
+window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
@@ -95,20 +95,7 @@ function showDropdown() {
       }
     }
   }
-} */
-
-window.addEventListener('click touchstart', function (event) { //addEventListener; click indica il click da mouse, touchstart, quello da mobile
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-});
+}
 
 
 // Slideshow
