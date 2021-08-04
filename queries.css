@@ -19,6 +19,10 @@
   display: none;
 }
 
+#sub_header li {
+  -webkit-tap-highlight-color: #ccc;
+}
+
 #sub_header li:active {
   color: #FFF; 
   background-color: #434343; 
