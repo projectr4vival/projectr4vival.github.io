@@ -97,7 +97,7 @@ function showDropdown() {
   }
 } */
 
-window.addEventListener('click touchstart', function () {
+window.addEventListener('click touchstart', function () { //addEventListener; click indica il click da mouse, touchstart, quello da mobile
   if (!event.target.matches('.dropbtn')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
