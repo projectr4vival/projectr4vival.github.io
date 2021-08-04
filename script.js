@@ -97,7 +97,7 @@ function showDropdown() {
   }
 } */
 
-window.addEventListener('click', function () {
+window.addEventListener('click touchstart', function () {
   if (!event.target.matches('.dropbtn')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
