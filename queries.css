@@ -21,6 +21,7 @@
 
 #sub_header li {
   -webkit-tap-highlight-color: #434343;
+  transition: 0s;
 }
 
 #sub_header li:active {
