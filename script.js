@@ -200,7 +200,7 @@ function showMenu(x){
 
   changeButton(x);
 
-  if (("x").hasClass("change"))
+  if (x.classList.contains("change");)
     closeNav();
   else
     openNav();
