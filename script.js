@@ -39,7 +39,7 @@ header.innerHTML =
             </div>
         </div> 
       </li> 
-      <li class="menu" onclick="showMenu(this); openNav();">
+      <li class="menu" onclick="showMenu(this)">
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
@@ -185,7 +185,7 @@ span.onclick = function() {
 
 
 /* Mobile Menu */
-function showMenu(x){
+function changeButton(x){
   x.classList.toggle("change");
 } 
 
@@ -197,4 +197,14 @@ function openNav() {
 /* Close */
 function closeNav() {
   document.getElementById("myNav").style.height = "0%";
+} 
+
+function showMenu(x){
+
+  changeButton(x);
+
+  if(x.classList.contains("change")) 
+    closeNav();
+  else
+    openNav();
 } 
