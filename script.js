@@ -28,9 +28,6 @@ header.innerHTML =
 
       </div>
 
-      <!-- Use any element to open/show the overlay navigation menu -->
-      <span onclick="openNav()">open</span>
-
       <li><a href = "https://projectr4vival.github.io/discord" target = "_blank"><img src = "https://projectr4vival.github.io/discord.svg"></a></li> 
       <li> 
         <div class="dropdown">
@@ -42,7 +39,7 @@ header.innerHTML =
             </div>
         </div> 
       </li> 
-      <li class="menu" onclick="showMenu(this)">
+      <li class="menu" onclick="showMenu(this); openNav();">
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
