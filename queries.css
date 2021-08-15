@@ -15,9 +15,9 @@
   background-image: url("banner_mobile.jpg");
 }
 
-.overlay_content {
+/*.overlay_content {
   display: none;
-}
+}*/
 
 #sub_header li {
   -webkit-tap-highlight-color: #434343; /* As the :active pseudoclass doesn't work on safari */
