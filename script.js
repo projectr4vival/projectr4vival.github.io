@@ -203,7 +203,8 @@ function showMenu(x){
 
   changeButton(x);
 
-  if(x.classList.contains("change")) 
+  if ($('x').hasClass('change'))
+  //if(x.classList.contains("change")) 
     closeNav();
   else
     openNav();
