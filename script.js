@@ -201,12 +201,19 @@ function closeNav() {
 
 function showMenu(x){
 
+  if (changeButton(x))
+    openNav();
+  else
+    closeNav();
+}
+
+/*function showMenu(x){
+
   changeButton(x);
   openNav();
 
-  if ($('x').hasClass('change'))
-  //if(x.classList.contains("change")) 
+  if ($("x").hasClass("change"))
     closeNav();
   else
     openNav();
-} 
+} */
