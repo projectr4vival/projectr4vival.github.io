@@ -199,9 +199,9 @@ function closeNav() {
 function showMenu(x){
 
   if (changeButton(x))
-    openNav();
-  else
     closeNav();
+  else
+    openNav();
 }
 
 /*function showMenu(x){
