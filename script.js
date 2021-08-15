@@ -198,19 +198,10 @@ function closeNav() {
 
 function showMenu(x){
 
-  if (changeButton(x))
-    closeNav();
-  else
-    openNav();
-}
-
-/*function showMenu(x){
-
   changeButton(x);
-  openNav();
 
   if ($("x").hasClass("change"))
     closeNav();
   else
     openNav();
-} */
+}
