@@ -14,9 +14,6 @@ header.innerHTML =
     <ul id = "sub_header"> 
       <div id="myNav" class="overlay">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
         <!-- Overlay content -->
         <div class="overlay_content">
           <li><a href = "https://projectr4vival.github.io/">Home</a></li> 
