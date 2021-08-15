@@ -198,6 +198,8 @@ function closeNav() {
 
 function showMenu(x){
 
+openNav();
+
   if (changeButton(x))
     openNav();
   else
