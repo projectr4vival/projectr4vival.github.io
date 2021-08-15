@@ -12,13 +12,25 @@ header.innerHTML =
   </td>
   <td align = right>
     <ul id = "sub_header"> 
-      <div class = "overlay_content">
-        <li><a href = "https://projectr4vival.github.io/">Home</a></li> 
-        <li><a href = "https://projectr4vival.github.io/kernel">Kernel</a></li> 
-        <li><a href = "https://projectr4vival.github.io/dumping">Dumping</a></li>
-        <li><a href = "https://projectr4vival.github.io/homebrew">Homebrew</a></li> 
-        <li><a href = "https://projectr4vival.github.io/credits">Credits</a></li> 
+      <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay_content">
+          <li><a href = "https://projectr4vival.github.io/">Home</a></li> 
+          <li><a href = "https://projectr4vival.github.io/kernel">Kernel</a></li> 
+          <li><a href = "https://projectr4vival.github.io/dumping">Dumping</a></li>
+          <li><a href = "https://projectr4vival.github.io/homebrew">Homebrew</a></li> 
+          <li><a href = "https://projectr4vival.github.io/credits">Credits</a></li> 
+        </div>
+
       </div>
+
+      <!-- Use any element to open/show the overlay navigation menu -->
+      <span onclick="openNav()">open</span>
+
       <li><a href = "https://projectr4vival.github.io/discord" target = "_blank"><img src = "https://projectr4vival.github.io/discord.svg"></a></li> 
       <li> 
         <div class="dropdown">
@@ -178,4 +190,14 @@ span.onclick = function() {
 /* Mobile Menu */
 function showMenu(x){
   x.classList.toggle("change");
+} 
+
+/* Open */
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+/* Close */
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
 } 
