@@ -204,4 +204,7 @@ function showMenu(x){
     openNav();
   else
     closeNav();
+
+  document.getElementsByTagName("body").classList.toggle("vertical_disable");
+
 }
