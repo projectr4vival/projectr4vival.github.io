@@ -105,7 +105,7 @@
 
 /* The navigation links inside the overlay */
 .overlay a {
-  /*padding: 8px;*/
+  padding: 8px;
   text-decoration: none;
   font-size: 36px;
   color: #818181;
