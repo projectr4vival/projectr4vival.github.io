@@ -100,10 +100,11 @@
 .overlay_content li {
   width: 100%;
   border-bottom: 1px solid #555555;
+  padding-left: 0;
 }
 
 /* The navigation links inside the overlay */
-.overlay li a {
+.overlay a {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
