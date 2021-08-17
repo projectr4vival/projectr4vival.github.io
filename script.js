@@ -205,6 +205,6 @@ function showMenu(x){
   else
     closeNav();
 
-  document.getElementsByTagName("body").classList.toggle("vertical_disable");
+  document.body.classList.toggle("vertical_disable");
 
 }
