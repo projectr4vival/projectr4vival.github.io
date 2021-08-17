@@ -96,10 +96,11 @@
   left: 50%;
   transform: translateX(-50%);
   margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  display: block;
 }
 
 .overlay_content li {
-  display: block;
+
   border-bottom: 1px solid #555555;
 }
 
