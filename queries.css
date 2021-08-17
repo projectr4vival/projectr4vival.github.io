@@ -99,7 +99,7 @@
 }
 
 .overlay_content li {
-  /*width: 100%;*/
+  display: block;
   border-bottom: 1px solid #555555;
 }
 
