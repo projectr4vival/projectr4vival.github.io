@@ -78,7 +78,7 @@
   /* Height & width depends on how you want to reveal the overlay (see JS below) */   
   height: 0;
   width: 100%;
-  margin-top: 80px;
+  margin-top: 75px;
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
@@ -86,6 +86,7 @@
   background-color: #1e1e1e; /* Black fallback color */
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  border-top: 1px solid #555555;
 }
 
 /* Position the content inside the overlay */
