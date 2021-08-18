@@ -206,6 +206,6 @@ function showMenu(x){
     closeNav();
 
   document.body.classList.toggle("vertical_disable");
-  document.body.addEventListener('touchstart', function(e){ e.preventDefault(); }, {passive: false}); // Disable vertical scroll on mobile
+  document.body.addEventListener('touchmove', function(e){ e.preventDefault(); }, {passive: false}); // Disable vertical scroll on mobile
 
 }
