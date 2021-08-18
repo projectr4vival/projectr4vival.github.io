@@ -203,6 +203,7 @@ function showMenu(x){
   if (x.classList.contains("change")) {
     openNav();
     document.body.addEventListener('touchmove', function(e){ e.preventDefault(); }, {passive: false}); // Disable vertical scroll on mobile
+    //Passive false is required for modern browsers, touchmove means events that include a touch action moving on the screen
   }
   else {
     closeNav();
