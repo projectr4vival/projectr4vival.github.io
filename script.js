@@ -196,6 +196,10 @@ function closeNav() {
   document.getElementById("myNav").style.height = "0%";
 } 
 
+function preventDefault(e){
+    e.preventDefault();
+}
+
 function showMenu(x){
 
   changeButton(x);
@@ -212,8 +216,4 @@ function showMenu(x){
 
   document.body.classList.toggle("vertical_disable");
 
-}
-
-function preventDefault(e){
-    e.preventDefault();
 }
