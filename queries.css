@@ -93,12 +93,13 @@
   position: relative;
   /*top: 25%; /* 25% from the top */
   width: 100%; /* 100% width */
-  text-align: center;
+  /*text-align: center;*/
   margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
 }
 
 .overlay_content li {
-  width: 100%;
+  width: 75%;
+  margin: auto;
   border-bottom: 1px solid #555555;
   padding-left: 0;
 }
