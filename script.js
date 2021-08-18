@@ -202,14 +202,18 @@ function showMenu(x){
 
   if (x.classList.contains("change")) {
     openNav();
-    document.body.addEventListener('touchmove', function(e){ e.preventDefault(); }, {passive: false}); // Disable vertical scroll on mobile
+    document.body.addEventListener('touchmove', preventDefault, {passive: false}); // Disable vertical scroll on mobile
     //Passive false is required for modern browsers, touchmove means events that include a touch action moving on the screen
   }
   else {
     closeNav();
-    document.body.removeEventListener('touchmove', function(e){ e.preventDefault(); }, {passive: false}); // Reenable vertical scroll on mobile
+    document.body.removeEventListener('touchmove', preventDefault, {passive: false}); // Reenable vertical scroll on mobile
   }
 
   document.body.classList.toggle("vertical_disable");
 
+}
+
+function preventDefault(e){
+    e.preventDefault();
 }
