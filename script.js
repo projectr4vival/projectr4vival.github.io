@@ -206,7 +206,7 @@ function showMenu(x){
   }
   else {
     closeNav();
-    document.body.removeEventListener('touchmove', function(e){ e.preventDefault(); }, {passive: false}); // Reenable vertical scroll on mobile
+    document.body.addEventListener('touchmove', function(e){ e.preventDefault(); }, {passive: true}); // Reenable vertical scroll on mobile
   }
 
   document.body.classList.toggle("vertical_disable");
