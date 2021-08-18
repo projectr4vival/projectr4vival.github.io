@@ -58,9 +58,9 @@ footer.innerHTML =
 
 
 //Scroll the page up on loading
-window.onbeforeunload = function () {
+/*window.onbeforeunload = function () {
   window.scrollTo(0, 0);
-}
+}*/ //Purtroppo lo fa prima del caricamento e il browser interviene dopo
 
 
 function listSearch() {
