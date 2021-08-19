@@ -270,6 +270,11 @@ hr {
   background-color: #434343;
 }
 
+.closebtn {
+  display: none;
+  height: 25px;
+}
+
 /* Show the dropdown menu (JS) */
 .show {
   display: block;
@@ -279,10 +284,6 @@ hr {
   display: none;
 }
 
-.closebtn {
-  display: none;
-  height: 25px;
-}
 
 /* Slideshow container */
 .slideshow-container {
