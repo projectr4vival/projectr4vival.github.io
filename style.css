@@ -273,8 +273,10 @@ hr {
 .closebtn {
   display: none;
   font-size: 40px;
+  font-style: bold;
   color: #fff;
   cursor: pointer;
+  margin-top: -5px;
 }
 
 /* Show the dropdown menu (JS) */
