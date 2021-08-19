@@ -101,6 +101,8 @@ window.onclick = function(event) {
       var openDropdown = dropdowns[i];
       if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
+        document.getElementsByClassName("closebtn")[0].classList.remove("show");
+        document.getElementsByClassName("dropbtn")[0].classList.remove("hide");
       }
     }
   }
