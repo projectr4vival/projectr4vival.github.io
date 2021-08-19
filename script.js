@@ -95,6 +95,7 @@ function showDropdown() {
 
 let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
 
+//Code duplicate
 function preventDefault(e){
     e.preventDefault();
 }
