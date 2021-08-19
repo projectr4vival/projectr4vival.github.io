@@ -126,6 +126,7 @@
 } 
 
 .closebtn {
+  font-size: 44px;
   -webkit-transform: translate(-3px, -2px);
   transform: translate(-3px, -2px);
 }
