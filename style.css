@@ -272,7 +272,8 @@ hr {
 
 .closebtn {
   display: none;
-  height: 25px;
+  width: 25px;
+  color: #fff;
 }
 
 /* Show the dropdown menu (JS) */
