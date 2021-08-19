@@ -27,8 +27,9 @@ header.innerHTML =
 
       <li><a href = "https://projectr4vival.github.io/discord" target = "_blank"><img src = "https://projectr4vival.github.io/discord.svg"></a></li> 
       <li> 
-        <div class="dropdown">
-          <img src = "https://projectr4vival.github.io/language.svg" onclick="showDropdown()" class="dropbtn">
+        <div class="dropdown" onclick="showDropdown()">
+          <img src = "https://projectr4vival.github.io/language.svg" class="dropbtn">
+          <a href="javascript:void(0)" class="closebtn">&times;</a>
             <div id="myDropdown" class="dropdown-content">
               <a href="https://projectr4vival.github.io/">English</a>
               <hr>
@@ -87,6 +88,8 @@ function listSearch() {
 // When the user clicks on the button, toggle between hiding and showing the dropdown content */
 function showDropdown() {
   document.getElementById("myDropdown").classList.toggle("show");
+  document.getElementsByClassName("closebtn").classList.toggle("show"); // Make the close button disappear/appear
+  document.getElementsByClassName("dropbtn").classList.toggle("hide"); // Make the lang svg disappear/appear
 }
 
 // Close the dropdown menu if the user clicks outside of it

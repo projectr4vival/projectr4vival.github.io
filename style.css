@@ -272,7 +272,16 @@ hr {
 
 /* Show the dropdown menu (JS) */
 .show {
-  display:block;
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.closebtn {
+  display: none;
+  height: 25px;
 }
 
 /* Slideshow container */
