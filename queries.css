@@ -132,4 +132,8 @@
   font-weight: 500;
 }
 
+.dropdown-content {
+  margin-top: 35px;
+}
+
 }
