@@ -274,7 +274,7 @@ hr {
   display: none;
   font-size: 46px;
   max-height: 45px;
-  font-weight: 600;
+  /*font-weight: 600;*/
   color: #fff;
   cursor: pointer;
   line-height: 15px;
