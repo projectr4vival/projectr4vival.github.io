@@ -96,16 +96,16 @@ function showDropdown() {
 let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
 
 //Code duplicate
-function preventDefault(e){
+/*function preventDefault(e){
     e.preventDefault();
 }
 
 if('ontouchstart' in window)
   document.getElementsByClassName('closebtn')[0].addEventListener('click', preventDefault, {passive: false}); // Disable click event if touch is present
 else
-  document.getElementsByClassName('closebtn')[0].removeEventListener('click', preventDefault, {passive: false});
+  document.getElementsByClassName('closebtn')[0].removeEventListener('click', preventDefault, {passive: false});*/
 
-document.body.addEventListener(touchEvent, closeOnClick);
+document.getElementById("content").addEventListener(touchEvent, closeOnClick);
 
 // Close the dropdown menu if the user clicks outside of it
 function closeOnClick(event) {
