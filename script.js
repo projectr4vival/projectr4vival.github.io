@@ -88,8 +88,8 @@ function listSearch() {
 // When the user clicks on the button, toggle between hiding and showing the dropdown content */
 function showDropdown() {
   document.getElementById("myDropdown").classList.toggle("show");
-  document.getElementsByClassName("closebtn").classList.toggle("show"); // Make the close button disappear/appear
-  document.getElementsByClassName("dropbtn").classList.toggle("hide"); // Make the lang svg disappear/appear
+  document.getElementsByClassName("closebtn")[0].classList.toggle("show"); // Make the close button disappear/appear
+  document.getElementsByClassName("dropbtn")[0].classList.toggle("hide"); // Make the lang svg disappear/appear
 }
 
 // Close the dropdown menu if the user clicks outside of it
