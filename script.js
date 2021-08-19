@@ -95,6 +95,10 @@ function showDropdown() {
 
 let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
 
+function preventDefault(e){
+    e.preventDefault();
+}
+
 if('ontouchstart' in window)
   document.getElementsByClassName('closebtn')[0].addEventListener('click', preventDefault, {passive: false}); // Disable click event if touch is present
 else
