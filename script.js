@@ -96,6 +96,7 @@ function showDropdown() {
 let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
 
 document.getElementById("content").addEventListener(touchEvent, closeOnClick);
+document.getElementsByClassName("menu")[0].addEventListener(touchEvent, closeOnClick);
 
 // Close the dropdown menu if the user clicks outside of it
 function closeOnClick(event) {
