@@ -127,8 +127,9 @@
 
 .closebtn {
   font-size: 42px;
-  -webkit-transform: translate(-3px, -2px);
-  transform: translate(-3px, -2px);
+  -webkit-transform: translate(-3px, -4px);
+  transform: translate(-3px, -4px);
+  font-weight: 500;
 }
 
 }
