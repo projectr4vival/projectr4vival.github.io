@@ -92,8 +92,13 @@ function showDropdown() {
   document.getElementsByClassName("dropbtn")[0].classList.toggle("hide"); // Make the lang svg disappear/appear
 }
 
+
+let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
+
+document.getElementById('hbs').addEventListener(touchEvent, closeOnClick);
+
 // Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
+function closeOnClick() = function(event) {
   if (!event.target.matches('.dropbtn')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
