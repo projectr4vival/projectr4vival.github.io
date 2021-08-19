@@ -274,6 +274,7 @@ hr {
   display: none;
   font-size: 40px;
   color: #fff;
+  cursor: pointer;
 }
 
 /* Show the dropdown menu (JS) */
