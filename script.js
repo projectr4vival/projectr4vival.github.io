@@ -50,7 +50,7 @@ header.innerHTML =
 
 footer.innerHTML = 
 
-`<table width = 1300px align="center">
+`<table width = 100% style = "max-width: 1300px" align="center">
   <tr>
     <td>This site is not affiliated with the Nintendo&reg company in any way.</td>
     <td align = "right">&copy 2021 Project R4vival - <a href = "https://github.com/projectr4vival/projectr4vival.github.io" target="_blank">Source<img src = "https://projectr4vival.github.io/github.svg"></a></td>
