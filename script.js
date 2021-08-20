@@ -3,7 +3,7 @@ var footer = document.getElementById("footer");
 
 header.innerHTML = 
 
-`<table width = 1300px align="center">
+`<table width = 100% style = "max-width: 1300px" align="center">
 <tr>
   <td id = "logo">
     <a href = "https://projectr4vival.github.io/">
