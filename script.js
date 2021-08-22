@@ -126,7 +126,6 @@ var slideIndex = 0;
 var i;
 var slides = document.getElementsByClassName("mySlides");
 var dots = document.getElementsByClassName("dot");
-dots[0].className += " active";
 
 showSlides();
 
@@ -139,6 +138,8 @@ function currentSlide(n) {
 }
 
 function showSlides() {
+
+  dots[0].className += " active";
 
   clearSlides();
 
