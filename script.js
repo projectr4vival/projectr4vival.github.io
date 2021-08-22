@@ -102,7 +102,7 @@ for(var i = 0; i < content.length; i++)
 }
 
 document.getElementsByClassName("menu")[0].addEventListener(touchEvent, closeOnClick);
-document.getElementByID("banner")[0].addEventListener(touchEvent, closeOnClick);
+document.getElementByID("banner").addEventListener(touchEvent, closeOnClick);
 
 // Close the dropdown menu if the user clicks outside of it
 function closeOnClick(event) {
