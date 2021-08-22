@@ -127,6 +127,10 @@ var i;
 var slides = document.getElementsByClassName("mySlides");
 var dots = document.getElementsByClassName("dot");
 
+if (dots[0] != null) {
+  dots[0].className += " active";
+}
+
 showSlides();
 
 function plusSlides(n) {
@@ -138,8 +142,6 @@ function currentSlide(n) {
 }
 
 function showSlides() {
-
-  dots[0].className += " active";
 
   clearSlides();
 
