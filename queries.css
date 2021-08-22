@@ -6,8 +6,8 @@
   margin-bottom: 0px;
 }
 
-#header {
-  padding: 5px 20px 5px 20px;
+#logo {
+  padding-left: 0;
 }
 
 .content, #banner {

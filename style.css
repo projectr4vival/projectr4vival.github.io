@@ -78,12 +78,13 @@ hr {
 #header {
   background-color: #2e2e2e;
   font-size: 25px;
-  padding: 5px 40px 5px 40px; /*top right bottom left*/
+  padding: 5px 20px 5px 20px; /*top right bottom left*/
   border-bottom: 1px solid #555555;
 }
 
 #logo {
   padding-top: 10px;
+  padding-left: 20px;
 }
 
 #logo img {
