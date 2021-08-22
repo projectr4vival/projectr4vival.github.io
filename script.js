@@ -131,7 +131,9 @@ if (dots[0] != null) {
   dots[0].className += " active";
 }
 
-showSlides();
+if(slides != null) {
+  showSlides();
+}
 
 function plusSlides(n) {
   changeSlides(slideIndex += n);
