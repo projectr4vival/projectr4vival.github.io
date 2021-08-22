@@ -6,7 +6,7 @@
   margin-bottom: 0px;
 }
 
-#content, #banner {
+.content, #banner {
   padding: 10% 5% 10% 5%;
   margin: 0;
 }

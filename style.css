@@ -16,7 +16,7 @@ body {
   height: 100%;
 }
 
-#content {
+.content {
   max-width: 1300px;
   margin: auto;
 }
