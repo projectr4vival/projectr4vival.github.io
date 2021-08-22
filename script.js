@@ -102,7 +102,11 @@ for(var i = 0; i < content.length; i++)
 }
 
 document.getElementsByClassName("menu")[0].addEventListener(touchEvent, closeOnClick);
-document.getElementById("banner").addEventListener(touchEvent, closeOnClick);
+
+var banner = document.getElementById("banner");
+if(banner != null){
+  banner.addEventListener(touchEvent, closeOnClick);
+}
 
 // Close the dropdown menu if the user clicks outside of it
 function closeOnClick(event) {
@@ -127,7 +131,9 @@ var i;
 var slides = document.getElementsByClassName("mySlides");
 var dots = document.getElementsByClassName("dot");
 
-dots[0].className += " active";
+if (dots[0] != null) {
+  dots[0].className += " active";
+}
 
 showSlides();
 
