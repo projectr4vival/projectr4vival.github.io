@@ -127,9 +127,7 @@ var i;
 var slides = document.getElementsByClassName("mySlides");
 var dots = document.getElementsByClassName("dot");
 
-if (dots[0] != null) {
-  dots[0].className += " active";
-}
+dots[0].className += " active";
 
 showSlides();
 
