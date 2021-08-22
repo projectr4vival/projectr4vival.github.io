@@ -130,11 +130,11 @@ hr {
   text-shadow: 2px 2px #595959;
   background-image: url("banner.jpg");
   background-size: cover; /*fa sì che un immagine in bg copra l'intero div*/
-  padding: 40px 0px 20px 0px;  /*80px 60px 80px 60px*/
+  padding: 40px 0px 20px 0px;
 }
 
 .content {
-  padding: 40px 80px 0 80px;
+  padding: 40px 60px 0 60px;
   box-sizing: border-box;
   min-height: 100%;
   height: auto !important;
