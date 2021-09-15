@@ -133,12 +133,12 @@
   .overlay a {font-size: 20px}
 } 
 
-.closebtn {
+/*.closebtn {
   font-size: 42px;
   -webkit-transform: translate(0px, -4px);
   transform: translate(0px, -4px);
   font-weight: 500;
-}
+}*/
 
 .dropdown-content {
   margin-top: 35px;

@@ -275,15 +275,24 @@ hr {
 
 .closebtn {
   display: none;
-  font-size: 46px;
+  /*font-size: 46px;
   max-height: 45px;
-  /*font-weight: 600;*/
   color: #fff;
   cursor: pointer;
   line-height: 15px;
   max-width: 25px;
   -webkit-transform: translate(-3px, 1.5px);
-  transform: translate(-3px, 1.5px);
+  transform: translate(-3px, 1.5px);*/
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(0px, 14px);
+  transform: rotate(-45deg) translate(0px, 14px);
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(0px, -14px);
+  transform: rotate(45deg) translate(0px, -14px);
 }
 
 /* Show the dropdown menu (JS) */
