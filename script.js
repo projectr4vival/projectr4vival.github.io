@@ -30,8 +30,8 @@ header.innerHTML =
         <div class="dropdown" onclick="showDropdown()">
           <img src = "https://projectr4vival.github.io/language.svg" class="dropbtn">
           <div class="closebtn">
-            <div class="bar1 change"></div>
-            <div class="bar3 change"></div>
+            <div class="change bar1"></div>
+            <div class="change bar3"></div>
           </div>
             <div id="myDropdown" class="dropdown-content">
               <a href="https://projectr4vival.github.io/">English</a>
