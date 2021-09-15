@@ -275,10 +275,10 @@ hr {
 
 .closebtn {
   display: none;
+  cursor: pointer;
   /*font-size: 46px;
   max-height: 45px;
   color: #fff;
-  cursor: pointer;
   line-height: 15px;
   max-width: 25px;
   -webkit-transform: translate(-3px, 1.5px);
@@ -296,6 +296,11 @@ hr {
 .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(0px, 14px);
   transform: rotate(-45deg) translate(0px, 14px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
 }
 
 .change .bar3 {
