@@ -308,6 +308,10 @@ hr {
   transform: rotate(45deg) translate(0px, -14px);
 }
 
+.bar3 {
+  margin-bottom: 5px;
+}
+
 /* Show the dropdown menu (JS) */
 .show {
   display: block;
