@@ -276,8 +276,8 @@ hr {
 .closebtn {
   display: none;
   cursor: pointer;
-  max-width: 21px;
-  padding-bottom: 3px;
+  max-width: 20px;
+  padding-bottom: 4px;
 }
 
 /* Show the dropdown menu (JS) */
