@@ -277,13 +277,7 @@ hr {
   display: none;
   cursor: pointer;
   max-width: 21px;
-  /*font-size: 46px;
-  max-height: 45px;
-  color: #fff;
-  line-height: 15px;
-  max-width: 25px;
-  -webkit-transform: translate(-3px, 1.5px);
-  transform: translate(-3px, 1.5px);*/
+  padding-bottom: 3px;
 }
 
 /* Show the dropdown menu (JS) */
