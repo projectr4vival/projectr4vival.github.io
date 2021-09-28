@@ -72,6 +72,11 @@
   transform: rotate(45deg) translate(0px, -14px);
 }
 
+.change .bar1, .change .bar3 {
+  margin-right: 10px;
+  margin-left: -10px;
+}
+
 /* Overwrite styles on devices with no hover capabilities */
 
 @media (hover: none) {
