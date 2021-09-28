@@ -277,7 +277,7 @@ hr {
   display: none;
   cursor: pointer;
   max-width: 20px;
-  padding-bottom: 4px;
+  padding: 5px 2px 4px 3px;
 }
 
 /* Show the dropdown menu (JS) */
