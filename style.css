@@ -276,6 +276,7 @@ hr {
 .closebtn {
   display: none;
   cursor: pointer;
+  max-width: 18px;
   /*font-size: 46px;
   max-height: 45px;
   color: #fff;
