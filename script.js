@@ -90,7 +90,7 @@ function showDropdown() {
   document.getElementById("myDropdown").classList.toggle("show");
   document.getElementsByClassName("closebtn")[0].classList.toggle("show"); // Make the close button appear/disappear
   document.getElementsByClassName("dropbtn")[0].classList.toggle("hide"); // Make the lang svg disappear/appear
-  if (!x.classList.contains("change")) {
+  if (!document.getElementsByClassName("menu")[0].classList.contains("change")) {
     showMenu(document.getElementsByClassName("menu")[0]);
   }
 }
