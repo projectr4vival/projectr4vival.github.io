@@ -257,7 +257,7 @@ hr {
   background-color: #2e2e2e;
   min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1; /*set the overlap level*/
+  z-index: 2; /*set the overlap level*/
   right: 0;
   margin-top: 30px;
   margin-right: -20px;
