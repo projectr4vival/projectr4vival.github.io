@@ -133,17 +133,10 @@
   color: #f1f1f1;
 }
 
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+/* When the height of the screen is less than 450 pixels, change the font-size of the links */
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
 } 
-
-/*.closebtn {
-  font-size: 42px;
-  -webkit-transform: translate(0px, -4px);
-  transform: translate(0px, -4px);
-  font-weight: 500;
-}*/
 
 .dropdown-content {
   margin-top: 35px;
