@@ -28,7 +28,7 @@
 }*/
 
 #sub_header li {
-  /*-webkit-tap-highlight-color: #434343; /* As the :active pseudoclass doesn't work on safari */
+  -webkit-tap-highlight-color: transparent; /* As the :active pseudoclass doesn't work on safari */
   transition: 0s;
   border-radius: 3px;
 }
