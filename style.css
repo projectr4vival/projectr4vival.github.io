@@ -528,12 +528,18 @@ hr {
 #scrollButton {
   display: none;
   position: fixed;
-  bottom: 20px; /* Place the button at the bottom of the page */
+  bottom: 70px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
   z-index: 4;
   border-radius: 10px;
-  background-color: rgba(255,255,255,0.3); /* Set a background color */
+  background-color: rgba(255,255,255,0.1); /* Set a background color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
-  max-width: 40px;
+  max-width: 30px;
+  transition: 0.2s;
+}
+
+#scrollButton:hover {
+  background-color: rgba(255,255,255,0.2);
+  transition: 0.2s;
 }
