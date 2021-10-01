@@ -147,7 +147,15 @@
 @media only screen and (max-width: 720) {
 
 #scrollButton {
-  bottom: 90px;
+  bottom: 80px;
+}
+
+}
+
+@media only screen and (max-width: 480) {
+
+#scrollButton {
+  bottom: 100px;
 }
 
 }
