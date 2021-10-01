@@ -143,3 +143,11 @@
     transition: 0s;
   }
 }
+
+@media only screen and (max-width: 720) {
+
+#scrollButton {
+  bottom: 90px;
+}
+
+}
