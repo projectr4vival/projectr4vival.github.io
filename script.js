@@ -138,9 +138,7 @@ if (dots[0] != null) {
   dots[0].className += " active";
 }
 
-if (slides != null) {
-  showSlides();
-}
+showSlides();
 
 function plusSlides(n) {
   changeSlides(slideIndex += n);
@@ -156,7 +154,9 @@ function showSlides() {
 
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
+  if (slideIndex >= 1) {
+    slides[slideIndex-1].style.display = "block";
+  }
   dots[slideIndex-1].className += " active";
   var timer = setTimeout(showSlides, 3000); // Change image every 3 seconds
   
