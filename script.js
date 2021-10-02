@@ -131,9 +131,7 @@ function closeOnClick(event) {
 // Slideshow
 var slideIndex = 0;
 var i;
-if (document.getElementsByClassName("mySlides") != null) {
-  var slides = document.getElementsByClassName("mySlides");
-}
+var slides = document.getElementsByClassName("mySlides");
 var dots = document.getElementsByClassName("dot");
 
 if (dots[0] != null) {
