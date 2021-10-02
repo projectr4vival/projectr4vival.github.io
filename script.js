@@ -131,7 +131,9 @@ function closeOnClick(event) {
 // Slideshow
 var slideIndex = 0;
 var i;
-var slides = document.getElementsByClassName("mySlides");
+if (document.getElementsByClassName("mySlides") != null) {
+  var slides = document.getElementsByClassName("mySlides");
+}
 var dots = document.getElementsByClassName("dot");
 
 if (dots[0] != null) {
@@ -154,9 +156,7 @@ function showSlides() {
 
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
-  if (slideIndex >= 1) {
-    slides[slideIndex-1].style.display = "block";
-  }
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   var timer = setTimeout(showSlides, 3000); // Change image every 3 seconds
   
