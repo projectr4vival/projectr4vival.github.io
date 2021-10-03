@@ -250,7 +250,7 @@ function showMenu(x){
 /* ScrollButton */
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+document.body.onscroll = function() {scrollFunction()};
 
 window.addEventListener("scroll", () => {
   scrollFunction()
