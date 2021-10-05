@@ -254,7 +254,7 @@ function showMenu(x){
 
 //document.body.addEventListener("scroll", scrollFunction());
 
-document.addEventListener("scroll", myFunction);
+document.addEventListener("scroll", scrollFunction());
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 || window.scrollY > 20) {
