@@ -545,7 +545,7 @@ hr {
 }
 
 .scrollHide {
-  animation: fadeIn 0.5s linear reverse;
+  animation: fadeOut 0.5s linear reverse;
 }
 
 @-webkit-keyframes fadeIn {
@@ -556,4 +556,14 @@ hr {
 @keyframes fadeIn {
   0% {opacity: 0}
   100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeOut {
+  0% {opacity: 1}
+  100% {opacity: 0}
+}
+
+@keyframes fadeOut {
+  0% {opacity: 1}
+  100% {opacity: 0}
 }
