@@ -65,10 +65,10 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 || window.scrollY > 20) {
-    document.getElementById("scrollButton").style.display = "block";
+    document.getElementById("scrollButton").classList.add("scrollAppear");
   }
   else {
-    document.getElementById("scrollButton").style.display = "none";
+    document.getElementById("scrollButton").classList.remove("scrollAppear");
   }
 }
 
