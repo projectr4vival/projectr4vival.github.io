@@ -72,7 +72,7 @@ function scrollFunction() {
   else {
     document.getElementById("scrollButton").classList.remove("scrollShow");
     document.getElementById("scrollButton").classList.add("scrollHide");
-    /*document.getElementById("scrollButton").style.display = "none";*/
+    document.getElementById("scrollButton").style.display = "none";
   }
 }
 
