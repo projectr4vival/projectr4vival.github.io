@@ -70,9 +70,11 @@ function scrollFunction() {
     document.getElementById("scrollButton").classList.add("scrollShow");
   }
   else {
-    document.getElementById("scrollButton").classList.remove("scrollShow");
-    document.getElementById("scrollButton").classList.add("scrollHide");
-    window.setTimeout(hideButton, 500);
+    if (document.getElementById("scrollButton").style.display == "block") {
+      document.getElementById("scrollButton").classList.remove("scrollShow");
+      document.getElementById("scrollButton").classList.add("scrollHide");
+      window.setTimeout(hideButton, 500);
+    }
   }
 }
 
