@@ -133,6 +133,12 @@
   margin-top: 35px;
 }
 
+/* Scroll Button */
+#scrollButton {
+  right: 20px;
+}
+
+
 }
 
 /* Overwrite styles on devices with no hover capabilities */
