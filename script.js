@@ -72,8 +72,12 @@ function scrollFunction() {
   else {
     document.getElementById("scrollButton").classList.remove("scrollShow");
     document.getElementById("scrollButton").classList.add("scrollHide");
-    window.setTimeout(document.getElementById("scrollButton").style.display = "none", 5000);
+    window.setTimeout(hideButton, 5000);
   }
+}
+
+function hideButton() {
+  document.getElementById("scrollButton").style.display = "none";
 }
 
 // When the user clicks on the button, scroll to the top of the document
