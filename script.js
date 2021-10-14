@@ -65,10 +65,14 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 || window.scrollY > 20) {
-    document.getElementById("scrollButton").classList.add("scrollAppear");
+    document.getElementById("scrollButton").style.display("block");
+    document.getElementById("scrollButton").classList.remove("scrollHide");
+    document.getElementById("scrollButton").classList.add("scrollShow");
   }
   else {
-    document.getElementById("scrollButton").classList.remove("scrollAppear");
+    document.getElementById("scrollButton").classList.remove("scrollShow");
+    document.getElementById("scrollButton").classList.add("scrollHide");
+    document.getElementById("scrollButton").style.display("none");
   }
 }
 

@@ -540,17 +540,20 @@ hr {
   transition: 0.2s;
 }
 
-.scrollAppear {
-  display: block;
-  animation: fadeIn 0.5s;
+.scrollShow {
+  animation: fadeInOut 0.5s linear forwards;
 }
 
-@-webkit-keyframes fadeIn {
+.scrollHide {
+  animation: fadeInOut 0.5s linear backwards;
+}
+
+@-webkit-keyframes fadeInOut {
   from {opacity: 0}
   to {opacity: 1}
 }
 
-@keyframes fadeIn {
+@keyframes fadeInOut {
   from {opacity: 0}
   to {opacity: 1}
 }
