@@ -57,6 +57,7 @@ footer.innerHTML =
   </tr>
 </table>`;
 
+window.onscroll = function() {scrollFunction()};
 
 //Scroll the page up on loading
 /*window.onbeforeunload = function () {
@@ -252,9 +253,9 @@ function showMenu(x){
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
-document.body.addEventListener("scroll", scrollFunction());
+//document.body.addEventListener("scroll", scrollFunction());
 
-window.addEventListener("scroll", scrollFunction());
+//window.addEventListener("scroll", scrollFunction());
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 || window.scrollY > 20) {
