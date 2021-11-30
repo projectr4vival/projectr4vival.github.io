@@ -530,7 +530,7 @@ hr {
   border-radius: 10px;
   background-color: rgba(255,255,255,0.1); /* Set a background color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
+  padding: 10px; /* Some padding */
   max-width: 30px;
   transition: 0.2s;
 }
