@@ -175,7 +175,7 @@ hr {
   color: #b8b8b8;
   background-color: #2e2e2e;
   padding: 15px 60px 15px 60px;
-  text-align:center;
+  text-align:center; /*margin: auto; doesn't work with inline elements*/
 }
 
 #footer a {
