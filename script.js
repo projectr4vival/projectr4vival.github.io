@@ -62,9 +62,9 @@ footer.innerHTML =
     <div class = "affiliated"> This site is not affiliated with the Nintendo&reg company in any way. </div>
     <div class = "copyright"> &copy 2021 Project R4vival</div>
   </div>
-  <div class = "github">
+  <div class = "source">
     <a href = "https://github.com/projectr4vival/projectr4vival.github.io" target="_blank">
-      <div class = "sourcetext"> - Source<div> <img src = "https://projectr4vival.github.io/github.svg">
+      <div class = "sourcetext"> - Source<div> <img src = "https://projectr4vival.github.io/github.svg" class = "github">
     </a>
   </div>
 </div>`;
