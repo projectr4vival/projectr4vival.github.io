@@ -176,6 +176,7 @@ hr {
   background-color: #2e2e2e;
   padding: 15px 60px 15px 60px;
   margin: auto;
+  /*float: left;*/
 }
 
 #footer a {
