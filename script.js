@@ -57,7 +57,7 @@ footer.innerHTML =
   </tr>
 </table>-->
 
-<div style = "max-width: 1300px">
+<div style = "max-width: 1300px; align: center;">
   <div class = "text">
     <div class = "affiliated"> This site is not affiliated with the Nintendo&reg company in any way. </div>
     <div class = "copyright"> &copy 2021 Project R4vival</div>
