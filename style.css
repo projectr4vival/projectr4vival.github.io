@@ -183,6 +183,10 @@ hr {
   color: #b8b8b8;
 }
 
+#footer div {
+  display: inline-block;
+}
+
 .github {
   width: 15px;
   height: auto;
@@ -190,11 +194,9 @@ hr {
   padding-left: 8px;
 }
 
-.affiliated {}
-
-.copyright {align: right;}
-
-.source {align: right;}
+.affiliated {
+  padding-right: 400px
+}
 
 #input {
   background-image: url('search.svg');
