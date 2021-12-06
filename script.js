@@ -50,12 +50,24 @@ header.innerHTML =
 
 footer.innerHTML = 
 
-`<table width = 100% style = "max-width: 1300px" align="center">
+`<!-- <table width = 100% style = "max-width: 1300px" align="center">
   <tr>
     <td>This site is not affiliated with the Nintendo&reg company in any way.</td>
     <td align = "right">&copy 2021 Project R4vival - <a href = "https://github.com/projectr4vival/projectr4vival.github.io" target="_blank">Source<img src = "https://projectr4vival.github.io/github.svg"></a></td>
   </tr>
-</table>`;
+</table>-->
+
+<div class = "content">
+  <div class = "text">
+    <div class = "affiliated"> This site is not affiliated with the Nintendo&reg company in any way. </div>
+    <div class = "copyright"> &copy 2021 Project R4vival</div>
+  </div>
+  <div class = "github">
+    <a href = "https://github.com/projectr4vival/projectr4vival.github.io" target="_blank">
+      <div class = "sourcetext"> - Source<div> <img src = "https://projectr4vival.github.io/github.svg">
+    </a>
+  </div>
+</div>`;
 
 
 /* ScrollButton */

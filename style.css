@@ -178,16 +178,22 @@ hr {
   margin: auto;
 }
 
-#footer img {
+#footer a {
+  color: #b8b8b8;
+}
+
+.github {
   width: 15px;
   height: auto;
   margin-bottom: -2px;
   padding-left: 8px;
 }
 
-#footer a {
-  color: #b8b8b8;
-}
+.affiliated {}
+
+.copyright {align: right;}
+
+.source {align: right;}
 
 #input {
   background-image: url('search.svg');
