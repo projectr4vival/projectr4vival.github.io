@@ -61,6 +61,7 @@ footer.innerHTML =
   <tr>
     <td>
       This site is not affiliated with the Nintendo&reg company in any way.
+      <br>
       &copy 2021 Project R4vival
     </td>
     <td align = "right">
