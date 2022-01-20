@@ -60,12 +60,12 @@ footer.innerHTML =
 <table width = 100% style = "max-width: 1300px" align="center">
   <tr>
     <td>
-      <p>This site is not affiliated with the Nintendo&reg company in any way.</p>
-      <p>&copy 2021 Project R4vival</p>
+      This site is not affiliated with the Nintendo&reg company in any way.
+      &copy 2021 Project R4vival
     </td>
     <td align = "right">
       <a href = "https://github.com/projectr4vival/projectr4vival.github.io" target="_blank">
-        <img src = "https://projectr4vival.github.io/github.svg">
+        <img src = "https://projectr4vival.github.io/github.svg" class = "github">
       </a>
     </td>
   </tr>
