@@ -68,7 +68,7 @@ remove github class + the others-->
     </td>
     <td align = "right">
       <a href = "https://github.com/projectr4vival/projectr4vival.github.io" target="_blank">
-        <img src = "https://projectr4vival.github.io/github.svg">
+        <img src = "https://projectr4vival.github.io/github.svg" class = "github">
       </a>
     </td>
   </tr>
