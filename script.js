@@ -57,7 +57,21 @@ footer.innerHTML =
   </tr>
 </table>-->
 
-<div style = "max-width: 1300px; align: center;">
+<table width = 100% style = "max-width: 1300px" align="center">
+  <tr>
+    <td>
+      <p>This site is not affiliated with the Nintendo&reg company in any way.</p>
+      <p>&copy 2021 Project R4vival</p>
+    </td>
+    <td align = "right">
+      <a href = "https://github.com/projectr4vival/projectr4vival.github.io" target="_blank">
+        <img src = "https://projectr4vival.github.io/github.svg">
+      </a>
+    </td>
+  </tr>
+</table>
+
+<!--<div style = "max-width: 1300px; align: center;">
   <div class = "text">
     <div class = "affiliated"> This site is not affiliated with the Nintendo&reg company in any way. </div>
     <div class = "copyright"> &copy 2021 Project R4vival</div>
@@ -67,7 +81,7 @@ footer.innerHTML =
       <div class = "sourcetext"> - Source<div> <img src = "https://projectr4vival.github.io/github.svg" class = "github">
     </a>
   </div>
-</div>`;
+</div>-->`;
 
 
 /* ScrollButton */
