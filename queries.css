@@ -154,18 +154,13 @@
   }
 }
 
-@media only screen and (max-width: 720) {
+@media only screen and (max-width: 800) {
 
 #scrollButton {
-  bottom: 80px;
+  bottom: 110px;
 }
 
 }
 
-@media only screen and (max-width: 480) {
-
-#scrollButton {
-  bottom: 100px;
-}
 
 }
