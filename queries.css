@@ -148,16 +148,18 @@
 /* Overwrite styles on devices with no hover capabilities */
 
 @media (hover: none) {
+
   #sub_header li:hover { 
     background-color: transparent;
     transition: 0s;
   }
+
 }
 
 @media only screen and (max-width: 800) {
 
-#scrollButton {
-  bottom: 110px;
-}
+  #scrollButton {
+    bottom: 110px;
+  }
 
 }
