@@ -14,6 +14,11 @@
   padding-right: 0;
 }
 
+#header {
+  padding-right: 0;
+}
+
+
 .content, #banner {
   padding: 10% 5% 10% 5%;
   margin: 0;
@@ -39,6 +44,10 @@
   display: inline-block;
   cursor: pointer;
   margin-bottom: -12px;
+}
+
+#footer td {
+  padding: 15px 20px 15px 20px;
 }
 
 /* Mobile Menu Button */
