@@ -59,7 +59,7 @@ footer.innerHTML =
 
 <table width = 100% style = "max-width: 1300px" align="center">
   <tr>
-    <td>
+    <td align = "left">
       This site is not affiliated with the Nintendo&reg company in any way.
       <br>
       &copy 2021 Project R4vival
