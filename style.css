@@ -186,11 +186,6 @@ hr {
   display: inline-block;
 }
 
-.github {
-  width: 25px;
-  height: auto;
-}
-
 #input {
   background-image: url('search.svg');
   background-size: 20px;
