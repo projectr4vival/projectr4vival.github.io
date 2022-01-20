@@ -128,13 +128,6 @@
   color: #f1f1f1;
 }
 
-}
-
-/* When the height of the screen is less than 450 pixels, change the font-size of the links */
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-} 
-
 .dropdown-content {
   margin-top: 35px;
 }
@@ -146,6 +139,11 @@
 
 
 }
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+} 
 
 /* Overwrite styles on devices with no hover capabilities */
 
