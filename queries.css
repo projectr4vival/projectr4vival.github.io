@@ -137,13 +137,23 @@
   right: 20px;
 }
 
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  #scrollButton {
+    bottom: 110px;
+  }
 
 }
+
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links */
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
 } 
+
 
 /* Overwrite styles on devices with no hover capabilities */
 
@@ -152,14 +162,6 @@
   #sub_header li:hover { 
     background-color: transparent;
     transition: 0s;
-  }
-
-}
-
-@media only screen and (max-width: 800) {
-
-  #scrollButton {
-    bottom: 110px;
   }
 
 }
