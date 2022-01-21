@@ -184,8 +184,13 @@ hr {
   color: #b8b8b8;
 }
 
-#footer div {
-  display: inline-block;
+#footer img {
+  transition: 0.2s;
+}
+
+#footer img:hover {
+  filter: brightness(75%);
+  transition: 0.2s;
 }
 
 #input {
@@ -523,7 +528,7 @@ hr {
   display: none;
   position: fixed;
   bottom: 100px; /* Place the button at the bottom of the page */
-  right: 60px; /* Place the button 30px from the right */
+  right: 64px; /* Place the button 30px from the right */
   z-index: 4;
   border-radius: 10px;
   background-color: rgba(255,255,255,0.1); /* Set a background color */
