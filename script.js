@@ -268,7 +268,7 @@ function preventDefault(e){
 
 function showMenu(x){
 
-  topFunction();
+  setTimeout(topFunction, 0); // I have no idea why it works only in debug mode without setting a timeout
 
   changeButton(x);
 
