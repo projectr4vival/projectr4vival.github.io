@@ -268,6 +268,8 @@ function preventDefault(e){
 
 function showMenu(x){
 
+  topFunction();
+
   changeButton(x);
 
   if (x.classList.contains("change")) {
